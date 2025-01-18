@@ -10,7 +10,7 @@
     margin-inline-start: 1rem;
     margin: 1.2rem;
   }
-  @media screen and (min-width: 45rem) {
+  @media screen and (min-width: 590px) {
     .parent{
         background-color: hsl(210, 46%, 95%);
         width: 80%;
@@ -47,6 +47,7 @@
     .iwokeupandigotfreshashellonamonday{
         grid-column:3;
         grid-row:2;
+        overflow: hidden;
     }
     .HAAAAAAAA{
         grid-column:3 / span 2;
