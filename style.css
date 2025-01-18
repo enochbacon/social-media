@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    display: block;
+    margin-inline-start: 1rem;
+    margin: 1.2rem;
+  }
+  @media screen and (min-width: 45rem) {
+    .parent{
+        background-color: hsl(210, 46%, 95%);
+        width: 80%;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+       column-gap:10px;
+    row-gap: 7px;
+    }
+    .s{
+       grid-column: 1;
+       grid-row: 1 / span 2; 
+       margin: 10px;
+    }
+    .m{
+        grid-column:1;
+        grid-row:2 / span 2;
+    }
+    .i{ 
+        grid-column:2 / span 2 ;
+    }
+    .g{
+        grid-column:4;
+        grid-row: 1 / span 2 ;
+    }
+    .b{
+        grid-column:2;
+        grid-row:2;
+    }
+    .a{
+        grid-column:2;
+        grid-row:3;
+    }
+    .iwokeupandigotfreshashellonamonday{
+        grid-column:3;
+        grid-row:2;
+    }
+    .HAAAAAAAA{
+        grid-column:3 / span 2;
+        grid-row:3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  .parent{
+    background-color: white;
+    width: 90%;
+    background-color: hsl(210, 46%, 95%);
+  }
+  .b{
+    background-color: white;
+    padding: 15px 10px;
+    width:100%;
+    border-radius:10px;
+  }
+  .b img{ 
+    width: 200px;
+    margin-bottom:10px;
+  }
+.s{
+   background-color: hsl(31, 66%, 93%) ;
+   width: 100%;
+   border-radius: 2%;
+   padding: 15px 10px;
+   padding: 15px 10px;
+   margin-bottom: 10px;
+}
+.s img{
+    width: 120px;
+    text-align: center;
+}
+.i{
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 2%;
+    text-align: center;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+ }
+.i img{
+    width:150px;
+}
+.i h1{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+.i p{
+    color: white;
+    font-size: 1.5rem;
+}
+.i span{
+    color: hsl(39, 100%, 71%);
+}
+.g{
+    background-color:hsl(254, 88%, 90%) ;
+    text-align: center;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px
+    border-radius 10px
+}
+.g img{
+    width:150px;
+    border-radius: 2%;
+    margin-top: 10px;
+}
+.g h1{
+   font-size: 2rem; 
+}
+.g p{
+    font-size: 1rem;
+}
+.m{
+    background-color:hsl(39, 100%, 71%);
+    border-radius: 1%;
+    width: 100%;
+    padding:15px 10px;
+    margin-bottom: 20px;
+}
+.m img{
+    width: 150px;
+}
+.a{
+    background-color:white;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border-radius:10px;
+}
+.a  h1{
+font-size: 2.5rem;
+}
+.a p{
+    font-size: 1.5rem;
+}
+.a img{
+    width: 150px;
+    margin-top: 15px;
+}
+.iwokeupandigotfreshashellonamonday{
+    background-color:hsl(39, 100%, 71%) ;
+    width: 100%;
+    padding:15px 10px ;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+.iwokeupandigotfreshashellonamonday img{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.HAAAAAAAA{
+   background-color:hsl(256, 67%, 59%) ;
+   text-align: center;
+   width: 100%;
+   padding: 15px 10px;
+   margin-bottom: 10px;
+   border-radius:10px;
+}
+.HAAAAAAAA img{
+    width:150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.HAAAAAAAA h1{
+color: white;
+text-align: center;
+}
+.i h1{
+    color: white;
+    text-align: center;
+}
